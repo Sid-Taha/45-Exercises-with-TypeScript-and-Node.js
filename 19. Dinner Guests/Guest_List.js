@@ -9,8 +9,8 @@ Guest_List[0] = new_Guest;
 // for(let i=0; i<Guest_List.length; i++){
 //     console.log('Dear Mr. ' + Guest_List[i] + ',\n\nIt is our pleasure to invite you in our party.\n\nThank You!\n\n')
 // }
-console.log(`Mr. ${absent_Guest} is not coming to the party.`);
-console.log('Good News! We find Big Table So we are inviting 3 more guests.');
+// console.log(`Mr. ${absent_Guest} is not coming to the party.`);
+// console.log('Good News! We find Big Table So we are inviting 3 more guests.');
 // array me 3 guest add kiye hain.
 Guest_List.unshift('Sir Zia Khan');
 Guest_List.splice(2, 0, 'Maryam Nawaz');
@@ -34,4 +34,4 @@ for (let i = 0; i < Guest_List.length; i++) {
 Guest_List.splice(0, 2);
 console.log(Guest_List);
 //yahan mene Q-17 ke empty array ki lenght batai he.
-console.log('\n\n' + Guest_List.length);
+console.log('\n\nEpmty Array count:' + Guest_List.length);
