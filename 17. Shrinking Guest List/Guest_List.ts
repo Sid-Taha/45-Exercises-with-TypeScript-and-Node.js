@@ -12,8 +12,8 @@ Guest_List[0] = new_Guest ;
 //     console.log('Dear Mr. ' + Guest_List[i] + ',\n\nIt is our pleasure to invite you in our party.\n\nThank You!\n\n')
 // }
 
-console.log(`Mr. ${absent_Guest} is not coming to the party.`);
-console.log('Good News! We find Big Table So we are inviting 3 more guests.')
+// console.log(`Mr. ${absent_Guest} is not coming to the party.`);
+// console.log('Good News! We find Big Table So we are inviting 3 more guests.')
 
 // array me 3 guest add kiye hain.
 Guest_List.unshift('Sir Zia Khan') ;
